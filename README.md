@@ -9,6 +9,8 @@
 </div>
 
 <br>
+# 更新
+- v1.0.2 增加换服功能
 
 # 注意事项
 - 需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
