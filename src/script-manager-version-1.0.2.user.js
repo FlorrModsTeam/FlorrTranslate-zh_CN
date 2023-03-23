@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name            Florr.io 汉化
 // @namespace       A florr.io userjs
-// @description     全面汉化 Florr.io
+// @description     全面汉化增强 Florr.io
 // @version         1.0.2
-// @author          -lexiyvv, flo修仙传, Tinhone
+// @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, Furaken
 // @license         GPL-3.0
 // @match           *://*.florr.io/*
 // @grant           GM_setValue
@@ -16,7 +16,85 @@
 
 (function () {
     'use strict';
-    let cp6=unsafeWindow.cp6
+    let url;
+const nativeWebSocket = unsafeWindow.WebSocket;
+unsafeWindow.WebSocket = function(...args){
+    const socket = new nativeWebSocket(...args);
+    url = socket.url
+    return socket;
+};
+
+let cp6 = unsafeWindow.cp6
+document.documentElement.addEventListener("keydown", function() {
+    if (event.keyCode === 9) getServerId()
+    else if (event.keyCode === 32 && event.shiftKey && event.ctrlKey) changeServer()
+});
+
+var doc = document.createElement('div')
+doc.style = `
+    width: 700px;
+    height: auto;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    position: relative;
+    border-radius: 200px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu';
+    padding: 10px;
+    text-shadow: rgb(0 0 0) 2px 0px 0px, rgb(0 0 0) 1.75517px 0.958851px 0px, rgb(0 0 0) 1.0806px 1.68294px 0px, rgb(0 0 0) 0.141474px 1.99499px 0px, rgb(0 0 0) -0.832294px 1.81859px 0px, rgb(0 0 0) -1.60229px 1.19694px 0px, rgb(0 0 0) -1.97998px 0.28224px 0px, rgb(0 0 0) -1.87291px -0.701566px 0px, rgb(0 0 0) -1.30729px -1.5136px 0px, rgb(0 0 0) -0.421592px -1.95506px 0px, rgb(0 0 0) 0.567324px -1.91785px 0px, rgb(0 0 0) 1.41734px -1.41108px 0px, rgb(0 0 0) 1.92034px -0.558831px 0px;
+    pointer-events: none;
+    top: -80px;
+    transition: 1s ease-in-out;
+`
+document.querySelector('body').appendChild(doc)
+
+var servers = [],
+    mapName = "",
+    regionName = "",
+    codeA = []
+for (let i = 0; i <= 13; i++) {
+    fetch("https://api.n.m28.io/endpoint/florrio-map-" + i + "-green/findEach/").then((response) => response.json()).then((data) => {
+        servers[i] = `${data.servers["vultr-miami"].id} ${data.servers["vultr-frankfurt"].id} ${data.servers["vultr-tokyo"].id}`
+    })
+}
+
+function getServerId() {
+    var wssUrl = url.slice(6, 9)
+    doc.style.top = '0px'
+    servers.forEach(function callback(x, index) {
+        if (x.includes(wssUrl)) {
+            mapName = "MAP" + index
+            codeA = x.split(" ")
+            console.log(codeA, wssUrl)
+            if (wssUrl == codeA[0]) regionName = "NA"
+            else if (wssUrl == codeA[1]) regionName = "EU"
+            else if (wssUrl == codeA[2]) regionName = "AS"
+        }
+    });
+    doc.innerHTML = `已连接到 ${regionName} ${mapName}<br>${url.slice(6,-1)}`
+    setTimeout(function() {
+        doc.style.top = '-80px'
+    }, 3000)
+}
+
+var servers2 = [],
+    code2 = ""
+fetch("https://api.n.m28.io/endpoint/florrio-map-1-green/findEach/").then((response) => response.json()).then((data) => {servers2 = [data.servers["vultr-miami"].id, data.servers["vultr-frankfurt"].id, data.servers["vultr-tokyo"].id]})
+function changeServer() {
+    code2 = prompt('Input server name: na/eu/as?')
+    if (code2.toLowerCase() == 'na') cp6.forceServerID(servers2[0])
+    else if (code2.toLowerCase() == 'eu') cp6.forceServerID(servers2[1])
+    else if (code2.toLowerCase() == 'as') cp6.forceServerID(servers2[2])
+}
+
+var urlA = []
+setInterval(function() {
+    urlA.unshift(url)
+    if (urlA.length > 2) urlA.splice(2)
+    if (urlA.at(-1) != urlA[0]) getServerId()
+}, 1000)
     let onkeydownFunction=window.onkeydown?window.onkeydown:function(e){}
     function customServer(){
         let name=prompt("请输入需要切换的服务器名称 Please enter the server name to switch")
