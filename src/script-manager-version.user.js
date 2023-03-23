@@ -2,10 +2,10 @@
 // @name            Florr.io 汉化
 // @namespace       A florr.io userjs
 // @description     全面汉化 Florr.io
-// @version         1.0.1
-// @author          -lexiyvv, flo修仙传, Tinhone
+// @version         1.0.2
+// @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, squid233
 // @license         GPL-3.0
-// @match           *://*.florr.io/*
+// @match           *://florr.io/*
 // @grant           GM_setValue
 // @grant           GM_getValue
 // @compatible      firefox V50+
@@ -81,9 +81,10 @@
         'Credits': '荣誉墙',
         'Special Thanks': '特别鸣谢',
         'Made by Matheus Valadares': '制作: Matheus Valadares',
-        'Some icons by Lorc Skoll from game-icons.net': '部分图标: Lorc Skoll 来自 game-icons.net',
+        'Some icons by Lorc & Skoll from game-': '部分图标: Lorc & Skoll 来自',
+        'icons.net': 'game-icons.net',
         'Some icons from twemoji.twitter.com': '部分图标: twemoji.twitter.com',
-        'Some tiles by kenney.nl': '部分材质贴图: kenney.nl',
+        'Some tiles by kenney.nl': '部分纹理贴图: kenney.nl',
 
         'Privacy Policy': '隐私策略',
 

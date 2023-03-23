@@ -1,9 +1,10 @@
 // @name            Florr.io 汉化 (控制台版，较少功能)
 // @description     全面汉化 Florr.io
-// @version         1.0.1
-// @author          -lexiyvv, flo修仙传, Tinhone
+// @version         1.0.2
+// @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, squid233
 // @license         GPL-3.0
-// @publishPage     这里放之后发布在 Greasyfork 等平台的链接
+// @publishPage     https://github.com/FlorrModsTeam/FlorrTranslate-zh_CN
+// @publishPage     https://greasyfork.org/zh-CN/scripts/462298
 
 const customFont = {
     fontFamily: 'Microsoft YaHei',
@@ -59,9 +60,10 @@ const translate = {
     'Credits': '荣誉墙',
     'Special Thanks': '特别鸣谢',
     'Made by Matheus Valadares': '制作: Matheus Valadares',
-    'Some icons by Lorc Skoll from game-icons.net': '部分图标: Lorc Skoll 来自 game-icons.net',
+    'Some icons by Lorc & Skoll from game-': '部分图标: Lorc & Skoll 来自',
+    'icons.net': 'game-icons.net',
     'Some icons from twemoji.twitter.com': '部分图标: twemoji.twitter.com',
-    'Some tiles by kenney.nl': '部分材质贴图: kenney.nl',
+    'Some tiles by kenney.nl': '部分纹理贴图: kenney.nl',
 
     'Privacy Policy': '隐私策略',
 
