@@ -1,6 +1,6 @@
 // @name            Florr.io 汉化 (控制台版，较少功能)
 // @description     全面汉化 Florr.io
-// @version         1.0.1.5
+// @version         1.0.1
 // @author          -lexiyvv, flo修仙传, Tinhone
 // @license         GPL-3.0
 // @publishPage     这里放之后发布在 Greasyfork 等平台的链接

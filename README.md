@@ -10,9 +10,6 @@
 
 <br>
 
-# 更新
-- v1.0.2 增加换服功能，增加查看服功能。
-
 # 注意事项
 - 需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
 - 对性能会有轻微影响。
@@ -21,11 +18,11 @@
 
 # 使用方法
 ## 脚本管理器运行版本
-1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/script-manager-version-1.0.2.user.js)
+1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/script-manager-version.user.js)
 2. 在脚本管理器弹出的页面中点击安装即可。
 
 ## 控制台运行版本
-1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/browser-console-version-1.0.2.txt)，浏览器可能会显示文件内容或开始下载。
+1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/browser-console-version.txt)，浏览器可能会显示文件内容或开始下载。
 2. 复制文件内容，粘贴到浏览器控制台并运行。
 
 注: 浏览器控制台请按 `f12` 或 `fn`+`f12` 开启，也可通过浏览器提供的入口开启，具体步骤请使用搜索引擎。
@@ -35,14 +32,9 @@
 - 所有文本汉化率达到 99%。
 - 重制花瓣再装填动画，脚本管理器运行版本可选择关闭。
 - 提供了一个友好的字体更换入口。(脚本管理器运行版本特供)
-- 自动换服
--  - 点击 `ctrl+shift+/`，在弹出的对话框中输入服号。（**NEW**）
--  - 点击 `ctrl+shift+space`，在弹出的对话框输入地区，如 AS。（**NEW**）
-- 按 `tab` 查看服号。（**NEW**）
+
 
 # 其他分发平台
-这个仓库为最新版本。
-
 Greasyfork：这是[链接](https://greasyfork.org/zh-CN/scripts/462298)。
 
 QQ：在 Florr.io Official(765884346) 的群文件中。
