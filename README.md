@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./florrIcon-32x32.png"></img>
 
-  <b style="font-size:2em">FlorrTranslate-zh_CN (Florr.io 汉化)</b>
+  <h1>FlorrTranslate-zh_CN (Florr.io 汉化)</h1>
 
   <p>「 全面汉化 Florr.io 」</p>
 </div>
