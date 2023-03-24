@@ -40,8 +40,8 @@ const translate = {
     'Loading...': '加载中...',
     'Account': '账号',
     'Changelog': '更新日志',
-    'Join our Discord community!': '加入我们的Discord社区！',
-    '加入我们的QQ群!': '加入我们的QQ群！',
+    'Join our Discord community!': '加入我们的Discord社区!',
+    '加入我们的QQ群!': '加入我们的QQ群!',
 
 
 
@@ -462,7 +462,7 @@ const translate = {
 
     'Stick': '树枝',
     'Mysterious Stick': '神秘的树枝',
-    'A mysterious stick that summons the forces of the wind.': '这个神秘的树枝可以召唤风的力量（生成沙尘暴）',
+    'A mysterious stick that summons the forces of the wind.': '这个神秘的树枝可以召唤风的力量来生成沙尘暴。',
     'Spawn: ': '生成：',
 
 
@@ -474,7 +474,7 @@ const translate = {
 
     'Third Eye': '第三只眼',
     'Allows your flower to expand your petals further out.': '能使装备的花瓣进一步张开，攻击距离更远。',
-    'Does not stack.': '花瓣效果不叠加',
+    'Does not stack.': '花瓣效果不叠加。',
     'Extra range: ': '距离加成：',
 
 
@@ -493,12 +493,12 @@ const translate = {
 
 
     'Web': '网',
-    'It\'s really sticky.': '黏糊糊的，用于减速敌人',
+    'It\'s really sticky.': '黏糊糊的，用于减速敌人。',
 
 
 
     'Wing': '翅膀',
-    'It comes and goes.': '像回旋镖一样的翅膀',
+    'It comes and goes.': '像回旋镖一样的翅膀。',
 
 
 

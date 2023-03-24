@@ -11,8 +11,9 @@
 <br>
 
 # 注意事项
-- 需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
-- 对性能会有轻微影响。
+- 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
+- 会对性能产生轻微影响。
+- 控制台运行版本功能较少。
 - 可能会导致您在聊天框输入的内容变成中文，您可以尝试添加一个空格以解决这个问题，我们正在尝试修复它。
 
 
