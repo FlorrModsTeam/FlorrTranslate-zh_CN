@@ -9,6 +9,8 @@
 </div>
 
 <br>
+# 更新
+修复 `蟑螂` 的翻译，by Lucker。
 
 # 注意事项
 - 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
