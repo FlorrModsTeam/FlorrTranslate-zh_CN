@@ -770,7 +770,7 @@
 
 
 
-        'Cockroach': '蟑螂',
+        'Roach': '蟑螂',
         'Gotta go FAST... until they get tired.': '速度非常快，除非它们累了。',
 
 
