@@ -2,7 +2,7 @@
 // @name            Florr.io 汉化
 // @namespace       A florr.io userjs
 // @description     全面汉化 Florr.io
-// @version         1.0.2
+// @version         1.1.0
 // @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, squid233, Lucker
 // @license         GPL-3.0
 // @match           *://florr.io/*
@@ -42,7 +42,7 @@
     const reloadProcessBarImg = document.createElement("img");
     reloadProcessBarImg.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAABlJREFUKFNj/Puf4T8DEYBxVCG+UKJ+8AAABz4d2ZbeQwkAAAAASUVORK5CYII=';
 
-    let timestamp = performance.timeOrigin + performance.now();
+    let timestampForDebug = performance.timeOrigin + performance.now();
 
     const translate = {
         //特殊判定
@@ -144,39 +144,39 @@
 
 
         //用户界面-地图名称
-        'Centralia': '森特勒利亚(主城)',
-        'Centralia Fields 1': '森特勒利亚1区(石头)',
-        'Centralia Fields 2': '森特勒利亚2区(下水道)',
-        'Centralia Fields 3': '森特勒利亚3区(瓢虫)',
-        'Centralia Fields 4': '森特勒利亚4区(断桥)',
-        'Centralia Fields 5': '森特勒利亚5区(蜈蚣)',
-        'Centralia Fields 6': '森特勒利亚6区(黄蜂)',
-        'Centralia Fields 7': '森特勒利亚7区(蒲公英)',
-        'Centralia Maze': '森特勒利亚-迷宫',
+        'Centralia': '中心之地',
+        'Centralia Fields 1': '后花园 1 (石头)',
+        'Centralia Fields 2': '后花园 2',
+        'Centralia Fields 3': '后花园 3 (瓢虫)',
+        'Centralia Fields 4': '后花园 4',
+        'Centralia Fields 5': '后花园 5 (蜈蚣)',
+        'Centralia Fields 6': '后花园 6 (黄蜂)',
+        'Centralia Fields 7': '后花园 7 (蒲公英)',
+        'Centralia Maze': '后花园迷宫',
 
-        'Centralia Sewers 1': '下水道1区(飞蛾)',
-        'Centralia Sewers 2': '下水道2区(蟑螂)',
-        'Centralia Sewers 3': '下水道3区(苍蝇)',
-        'Centralia Sewers 4': '下水道4区(蜘蛛)',
+        'Centralia Sewers 1': '后花园下水道 1 (飞蛾)',
+        'Centralia Sewers 2': '后花园下水道 2 (蟑螂)',
+        'Centralia Sewers 3': '后花园下水道 3 (苍蝇)',
+        'Centralia Sewers 4': '后花园下水道 4 (蜘蛛)',
 
-        'Centralia Beach': '森特勒利亚-海滩',
-        'East Waters 1': '东海1区',
-        'East Waters 2': '东海2区',
-        'East Waters 3': '东海3区-迷宫',
-        'East Waters 4': '东海4区(贝壳)',
-        'Jellyfish Fields': '水母区(水母)',
-        'East Waters 6': '东海6区(水蛭)',
-        'Crab Kingdom': '螃蟹王国(泡泡&螃蟹)',
+        'Centralia Beach': '后花园海滩',
+        'East Waters 1': '东部水域 1',
+        'East Waters 2': '东部水域 2',
+        'East Waters 3': '东部水域 3',
+        'East Waters 4': '东部水域 4 (贝壳)',
+        'East Waters 6': '东部水域 6 (水蛭)',
+        'Jellyfish Fields': '水母之地 (水母)',
+        'Crab Kingdom': '螃蟹王国 (泡泡&螃蟹)',
 
-        'South Desert 1': '沙漠南部1区(沙尘暴)',
-        'South Desert 2': '沙漠南部2区(火蚁狱)',
-        'South Desert 3': '沙漠南部3区(仙人掌)',
-        'South Desert 4': '沙漠南部4区(闪瓢虫)',
-        'South Desert 5': '沙漠南部5区(甲虫)',
+        'South Desert 1': '南部沙漠 1 (沙尘暴)',
+        'South Desert 2': '南部沙漠 2',
+        'South Desert 3': '南部沙漠 3 (仙人掌)',
+        'South Desert 4': '南部沙漠 4 (闪亮瓢虫)',
+        'South Desert 5': '南部沙漠 5 (甲虫)',
 
-        'Ant Hell 1': '火蚁狱(火蚁后)',
-        'Ant Hell 2': '黑蚁狱(黑蚁后)',
-        'Ant Hell 3': '白蚁狱(白蚁领主)',
+        'Ant Hell 1': '火蚁地狱 (火蚁后)',
+        'Ant Hell 2': '黑蚁地狱 (黑蚁后)',
+        'Ant Hell 3': '白蚁地狱 (白蚁领主)',
 
 
 
@@ -1002,8 +1002,8 @@
 
     //普通的日志输出，但加入了防止过快输出的措施
     function consoleTextInfoLog(string) {
-        if ((performance.timeOrigin + performance.now()) - timestamp >= 2333) {
-            timestamp = performance.timeOrigin + performance.now();
+        if ((performance.timeOrigin + performance.now()) - timestampForDebug >= 2333) {
+            timestampForDebug = performance.timeOrigin + performance.now();
             console.log(string);
         }
     }

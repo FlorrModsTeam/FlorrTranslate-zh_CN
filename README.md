@@ -10,26 +10,24 @@
 
 <br>
 
-# 更新
-修复 `蟑螂` 的翻译，by Lucker。
-
 # 注意事项
 - 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
 - 会对性能产生轻微影响。
 - 控制台运行版本功能较少。
+- 脚本管理器运行版本可以更改字体、自定义再装填动画等设置，您需要在脚本管理器中打开脚本修改页面，并在 储存 选项卡中编辑设置并保存。
 - 可能会导致您在聊天框输入的内容变成中文，您可以尝试添加一个空格以解决这个问题，我们正在尝试修复它。
 
 
 # 使用方法
-## 脚本管理器运行版本
-1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/script-manager-version.user.js)
+### 脚本管理器运行版本
+1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/main/src/FlorrTranslate-zh_CN-script-manager-version.user.js)。
 2. 在脚本管理器弹出的页面中点击安装即可。
 
-## 控制台运行版本
-1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/master/src/browser-console-version.txt)，浏览器可能会显示文件内容或开始下载。
+### 控制台运行版本
+1. 点击[链接](https://raw.githubusercontent.com/FlorrModsTeam/FlorrTranslate-zh_CN/main/src/FlorrTranslate-zh_CN-browser-console-version.txt)，浏览器可能会显示文件内容或开始下载。
 2. 复制文件内容，粘贴到浏览器控制台并运行。
 
-注: 浏览器控制台请按 `f12` 或 `fn`+`f12` 开启，也可通过浏览器提供的入口开启，具体步骤请使用搜索引擎。
+注: 浏览器控制台请按 `f12` 或 `fn+f12` 开启，也可通过浏览器提供的入口开启，具体步骤请使用搜索引擎。
 
 
 # 实现功能
@@ -38,7 +36,9 @@
 - 提供了一个友好的字体更换入口。(脚本管理器运行版本特供)
 
 
-# 其他分发平台
+# 所有分发平台
+GitHub: 这是[链接](https://github.com/FlorrModsTeam/FlorrTranslate-zh_CN)。您已经在这里了。
+
 Greasyfork：这是[链接](https://greasyfork.org/zh-CN/scripts/462298)。
 
 QQ：在 Florr.io Official(765884346) 的群文件中。
@@ -54,6 +54,8 @@ florr修仙传 (汉化组成员)
 [ztrztr](https://github.com/ZhongTianrui)
 
 [squid233](https://github.com/squid233)
+
+Lucker
 
 
 # 隐私声明
