@@ -11,7 +11,7 @@
 <br>
 
 # 注意事项
-- 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
+- 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
 - 会对性能产生轻微影响。
 - 控制台运行版本功能较少。
 - 脚本管理器运行版本可以更改字体、自定义再装填动画等设置，您需要在脚本管理器中打开脚本修改页面，并在 储存 选项卡中编辑设置并保存。
