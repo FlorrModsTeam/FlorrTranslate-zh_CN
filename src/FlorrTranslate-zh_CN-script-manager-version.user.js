@@ -98,6 +98,8 @@
         'Shop': '商店',
         'Today\'s offers:': '今日售卖',
         'You gain stars as you watch ads, or you can': '您可以在看广告时获得星星，',
+        'You gain stars as you watch ads as soon as you': '只要您获得第一个传奇花瓣，',
+        'collect your first legendary petal, or you can': '您就可以在看广告时获得星星；',
         'buy some by clicking the number on the right.': '也可以点击右边的数字购买一些。',
         'I have too much money': '我有超级多的钱',
         'In case of any issues with your purchase,': '如果您的购买过程出现任何问题，',
