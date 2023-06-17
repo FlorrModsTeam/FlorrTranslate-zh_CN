@@ -114,9 +114,9 @@ const translate = {
 
 
     //用户界面-挂机检查
-    'AFK Check': '每日一问',
-    'Are you here?': 'M28 找到双亲了吗？',
-    'I\'m here': '没找到',
+    'AFK Check': '挂机检查',
+    'Are you here?': '你还在这里吗？',
+    'I\'m here': '是的',
 
 
 
