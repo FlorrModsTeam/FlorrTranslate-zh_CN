@@ -1,7 +1,7 @@
 // @name            Florr.io 汉化 (控制台版，较少功能)
 // @description     全面汉化 Florr.io
 // @version         1.1.1
-// @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, squid233, Lucker
+// @author          -lexiyvv, flo修仙传, Tinhone, squid233, Lucker
 // @license         GPL-3.0
 // @publishPage     https://github.com/FlorrModsTeam/FlorrTranslate-zh_CN
 // @publishPage     https://greasyfork.org/zh-CN/scripts/462298
