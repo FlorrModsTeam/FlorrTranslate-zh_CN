@@ -3,7 +3,7 @@
 // @namespace       A florr.io userjs
 // @description     全面汉化 Florr.io
 // @version         1.1.1
-// @author          -lexiyvv, flo修仙传, Tinhone, ztrztr, squid233, Lucker
+// @author          -lexiyvv, flo修仙传, Tinhone, squid233, Lucker
 // @license         GPL-3.0
 // @match           *://florr.io/*
 // @grant           GM_setValue
