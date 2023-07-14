@@ -11,6 +11,7 @@
 <br>
 
 # 注意事项
+- 若你使用激进的脚本，你的账号将有极大的概率被封禁。你已经被警告过了。
 - 脚本管理器运行版本需要浏览器装有 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 插件。
 - 会对性能产生轻微影响。
 - 控制台运行版本功能较少。
@@ -50,8 +51,6 @@ QQ：在 Florr.io Official(765884346) 的群文件中。
 florr修仙传 (汉化组成员)
 
 [Tinhone](https://github.com/Tinhone) (汉化组成员)
-
-[ztrztr](https://github.com/ZhongTianrui)
 
 [squid233](https://github.com/squid233)
 
